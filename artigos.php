@@ -4,7 +4,7 @@
 require ('_config.php');
 
 // Define o título "desta" página
-$titulo = "Artigos";
+$titulo = "Lançamentos";
 
 // Opção ativa no menu principal
 $menu = "artigos";
@@ -81,7 +81,7 @@ SQL;
     // Cria subtítulo com total de artigos
     $total = $res->num_rows;
     if ( $total == 0) header('Location: artigos.php');
-    elseif ( $total > 1) $subtitulo = "{$total} artigos. Mais recentes primeiro.";
+    elseif ( $total > 1) $subtitulo = "{$total} lançamentos. Mais recentes primeiro.";
     else $subtitulo = "{$total} artigo.";
 
     // Obtendo cada artigo

@@ -128,8 +128,8 @@ INSERT INTO artigos (
 (
     '2020-02-03 11:44:00',
     'https://picsum.photos/201',
-    'Primeiro artigo do meu site',
-    'Veja como vai aparecer no site o artigo do meu site.',
+    'Primeiro creed',
+    'Veja vykings.',
     '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit elit nec est varius tristique.</p><p>Nunc ante tortor, facilisis vel diam lobortis, consequat aliquam lorem.</p><p>Fusce dolor orci, fringilla eget mauris ac, lobortis imperdiet odio. </p>',
     '1'
 ),
